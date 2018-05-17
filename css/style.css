@@ -1,0 +1,403 @@
+*{
+	padding: 0;
+	margin: 0;
+	left: 0;
+	right: 0;
+
+}
+
+
+
+
+
+a {
+    color:black;
+}
+
+.banner_left{
+	height: 500px;
+	background-image: url('../images/banner.jpg');
+	/* background-repeat: no-repeat; */
+}
+
+.banner_right{
+	height: 500px;
+	background-image: url('../images/ep_naturalwhite.png');	
+}
+
+.banner_p{
+	margin-top: 200px;
+	padding: 30px;
+}
+
+
+
+
+
+/* .resevation{
+	border: 1px solid red;
+	background: red;
+	border-radius: 25% 25% 25% 25%;
+
+} */
+.con2{
+	position: relative;
+	margin-top: 100px;
+	
+	
+
+}
+.con3{
+	position: relative;
+	margin-top: 380px;
+
+}
+
+.cr_size{
+	 position: absolute;
+     
+   
+
+}
+.cr{
+	border-radius: 50% 50% 50% 50%;
+	height: 0px;
+	padding-bottom: 100%;
+	width: 100%;
+	background-image: url('../images/cover.jpg');
+	background-size: cover;
+	position: absolute;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+	top: 0px;
+	left: 0px;
+	
+}
+
+
+.cr:hover{
+	opacity: 0.5;
+  	right: 0px;  
+	top: 10px;  
+}
+
+
+.cr_btn{
+	 
+	 /* border: 2px solid black; */
+	 width:200px;
+     height:50px;
+	 position: absolute;
+     
+     top:0;
+     right:0;
+     bottom:0;
+     left:0;
+     margin:auto;
+
+     color: white;
+	 font-size: 24px;
+	 display: block;
+	 text-align: center;
+		
+	
+
+ 
+}
+
+.cr_btn:hover{
+	
+	color: red;
+	/* display: block; */
+	
+
+
+}
+
+
+.more_btn{
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	top:0;
+     right:0;
+     bottom:0;
+     left:0;
+     margin:auto;
+
+}
+
+.text{
+	padding: 80px;
+}
+/* p{
+	text-align: center;
+} */
+.more_text{
+	top:0;
+     right:0;
+     bottom:0;
+     left:0;
+     margin:auto;
+}
+
+.cr1{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cover2.jpg');
+	background-size: cover;
+	position: absolute;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+	top: 0px;
+	left: 0px;
+}
+.cr1:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+.cr2{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cover3.jpg');
+	background-size: cover;
+	position: absolute;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+	top: 0px;
+	left: 0px;
+}
+.cr2:hover{
+	opacity: 0.5;
+  	right: 0px; 
+	top: 10px;  
+}
+
+.cr3{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cs.jpg');
+	background-size: cover;
+	position: absolute;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+	top: 0px;
+	left: 0px;
+
+}
+.cr3:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+.cs{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cs1.jpg');
+	background-size: cover;
+	position: absolute;
+}
+.cs:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+.cs1{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cs2.jpg');
+	background-size: cover;
+	position: absolute;
+}
+.cs1:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+.cs2{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cs3.jpg');
+	background-size: cover;
+	position: absolute;
+}
+.cs2:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+.cs3{
+	border-radius: 50% 50% 50% 50%;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	background-image: url('../images/cs4.jpg');
+	background-size: cover;
+	position: absolute;
+}
+.cs3:hover{
+	opacity: 0.5;
+  	right: 0px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+	top: 10px;  
+}
+
+
+
+.btn_link1{
+	border: 1px solid #eee;
+	width: 150px;
+	height: 50px;
+	margin: auto;
+	top: 600px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	background: #aaa;
+
+}
+
+
+
+
+.con4{
+	height: 400px;
+
+	margin-top: 400px;
+	background-image: url('../images/ep_naturalwhite.png');
+	position: relative;
+
+}
+
+.con5{
+	height: 400px;
+
+	margin-top: 400px;
+	background-image: url('../images/ep_naturalwhite.png');
+	position: relative;
+
+}
+
+
+.about{
+	
+	height: 400px;
+	width: 600px;
+	background-image: url('../images/about.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.cake{
+	max-width: 100%;
+	height: 100px;
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .m{	
+	margin: 20px;
+	display: inline-block;
+	
+	height: 300px;
+	width: 200px;
+	background: #aaa;
+
+	
+}
+
+.pic_head{
+	width: 80px;
+	height: 80px;
+	background: #eef;
+	position: relative;
+	margin: auto;
+	top: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50% 50% 50% 50%;
+
+}
+.star{
+	background: #000;
+}
+/* .center{
+	text-align: center;
+	position: relative;
+	width: 1000px;
+	
+} */
+
+.row7{
+	
+	margin-top: 300px;
+}
+
+
+/* img{
+	height: 400px;
+	width: 600px;
+
+}
+ */
+.copywrite{
+	height: 25px;
+	background: #ffa;
+}
+
+.info{
+	
+	padding: 50px;
+}
+.info_content{
+	display: inline-block;
+	padding: 50px;
+}
+
+.map{
+	background-image: url('../images/map.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	max-width: 100%;
+
+}

@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	left: 0;
+	right: 0;
+
+}
+
+
+
+
+
+.navbar{
+	position: relative;
+	text-align: center;
+	background: white;
+}
+
+.logo{
+	width: 100px;
+	border-radius: 50% 50% 50% 50%;
+	
+}
+li{
+	display: inline-block;
+	padding:10px;
+	/* margin:10px; */
+}
+i{
+	padding: 6px;
+}
+
+.con1{
+	
+	position: fixed;
+	z-index: 9;
+	
+}
+
+.copywrite{
+	height: 25px;
+	background: #ffa;
+}
+
+.center{
+	text-align: center;
+}
